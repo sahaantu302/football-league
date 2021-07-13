@@ -1,0 +1,94 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* Common Styles or Utilities  */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin-top: 70px;
+    background-color: #ffffff;
+    width: 1050px;
+}
+
+/* League header */
+.league-info {
+    display: flex;
+    background-color: #2D25A0;
+}
+
+.league-title {
+    margin-left: 156px;
+    margin-top: 80px;
+}
+
+.league-banner {
+    margin-right: 140px;
+    margin-top: 49px;
+    margin-bottom: 86px;
+}
+
+.league-title h1 {
+    width: 485px;
+    height: 230px;
+    font-size: 60px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 80px;
+}
+
+.league-title .link-button {
+    text-decoration: none;
+    padding: 10px 24px;
+    background: #E02C6D;
+    color: #fff;
+
+}
+
+.league-title .link-button:hover {
+    color: orangered;
+    background-image: linear-gradient(#C4E538, #A3CB38);
+}
+
+.league-banner img {
+    width: 556px;
+    height: 438px;
+}
+
+/*  Players part */
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.players img {
+    width: 300px;
+    height: 256;
+}
+
+.player {
+    margin-right: 30px;
+    margin-bottom: 27px;
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.player-name {
+    font-weight: 700;
+    font-size: 28px;
+    margin: 0;
+}
+
+.player-info {
+    color: #6C6C6C;
+    font-size: 16px;
+    margin-top: 10px;
+}
