@@ -35,6 +35,10 @@ main {
     margin-bottom: 86px;
 }
 
+.league-title i {
+    margin-left: 8px;
+}
+
 .league-title h1 {
     width: 485px;
     height: 230px;
@@ -54,12 +58,12 @@ main {
 
 .league-title .link-button:hover {
     color: orangered;
-    background-image: linear-gradient(#C4E538, #A3CB38);
+    background-color: #000;
 }
 
 .league-banner img {
     width: 556px;
-    height: 438px;
+    height: 488px;
 }
 
 /*  Players part */
@@ -91,4 +95,40 @@ main {
     color: #6C6C6C;
     font-size: 16px;
     margin-top: 10px;
+}
+
+/* League Footer  */
+.logo-info {
+
+    margin: auto;
+    margin-top: 158px;
+    width: 483.87px;
+    height: 213px;
+}
+
+.logo-info img {
+    width: 450px;
+    height: 110px;
+}
+
+.logo-info .social-icon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.logo-info .social-icon i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 14px;
+    background-color: lightgrey;
+    color: #969BAB;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.logo-info p {
+    text-align: center;
 }
