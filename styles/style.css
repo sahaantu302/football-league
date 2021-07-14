@@ -239,24 +239,21 @@ main {
     .league-info {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        margin: auto;
+
     }
 
     .league-title h1 {
         font-size: 36px;
         line-height: 50px;
-        width: 220px;
-        margin-left: -50px;
+        width: 310px;
+        height: 120px;
 
-    }
 
-    .league-title a {
-        margin-left: -50px;
-        margin-top: -20px;
     }
 
     .league-banner img {
         width: 400px;
+        margin-right: 0;
     }
 
     .container {
@@ -276,6 +273,7 @@ main {
         margin-top: 5000px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
     }
 
     .highlights-title {
